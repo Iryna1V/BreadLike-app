@@ -25,8 +25,6 @@ npm install
 
 Install React Router DOM:
 
-npm i react-router
-
 npm install react-router-dom
 
 Install React Counter:
@@ -48,4 +46,4 @@ npm run build
 The build will be generated in the 'dist' (or 'build') folder ready for deployment.
 
 # Demo:
-Here you can see the demo version of BreadLike web aplication: [BreadLike]() .
+Here you can see the demo version of BreadLike web aplication: [BreadLike](https://breadlike.netlify.app/).
