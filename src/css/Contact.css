@@ -80,6 +80,12 @@ h3 {
   margin-bottom: 25px;
  }
 
+ .contact-item p {
+  display: flex;
+  align-items: center;
+  gap: 4px;           
+}
+
 .our-contact { 
   color: #ae3d09; 
   margin-right: 15px; 
@@ -93,7 +99,7 @@ h3 {
 }
 
 @media (max-width: 900px) {
-  
+
   .cont {
     flex-direction: column;
     align-items: center;
@@ -103,4 +109,11 @@ h3 {
     width: 100%;
     max-width: 600px;
   }
+}
+
+@media (max-width: 500px) {
+  
+h3 {   
+  font-size: 0.9rem;
+}
 }
