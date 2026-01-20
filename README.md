@@ -1,6 +1,5 @@
 # About BreadLike Web Application 
 This React-based multi-page bakery website. In which you will find different types of bread and interesting useful information about sourdough bread. And find the bakery's contact information.
-
 The app is designed to work beautifully on various screen sizes, making it convenient for users on both desktop and mobile devices.
 
 
