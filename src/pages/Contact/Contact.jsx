@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../css/Contact.css";
+import "./Contact.css";
 import { GiBread } from "react-icons/gi";
 import { FaPhoneAlt } from "react-icons/fa";
 import { GrMapLocation } from "react-icons/gr";
