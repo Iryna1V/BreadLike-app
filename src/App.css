@@ -385,5 +385,6 @@ video {
   video {
     height: 50vh; 
     width: 100%;
+    margin-bottom: -1px;
 }
 }
