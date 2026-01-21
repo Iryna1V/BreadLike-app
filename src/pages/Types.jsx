@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { breadTypes } from "../data/breadTypes";
-import Buttons from "../components/Buttons";
+import Buttons from "../components/Buttons/Buttons";
 
 function Types() {
   const [types, setTypes] = useState(breadTypes);
@@ -12,7 +12,7 @@ function Types() {
 
     setTypes(newType);
   };
-  
+
   return (
     <div>
       <div>
