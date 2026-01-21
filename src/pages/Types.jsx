@@ -6,12 +6,13 @@ function Types() {
   const [types, setTypes] = useState(breadTypes);
 
   const chooseType = (searchTerm) => {
-    const newType = breadTypes.filter(
-      (element) => element.searchTerm === searchTerm
-    );
+    const newType = !searchTerm
+      ? breadTypes
+      : breadTypes.filter((el) => el.searchTerm === searchTerm);
+
     setTypes(newType);
   };
-
+  
   return (
     <div>
       <div>

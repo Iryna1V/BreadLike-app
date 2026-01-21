@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/Hero.css";
+import { Link } from "react-router-dom";
 
 function Hero() {
   return (
@@ -10,9 +11,9 @@ function Hero() {
             Sourdough bread <br /> made with love
           </h1>
           <div className="hero-link">
-            <a href="/types" className="explore">
+            <Link to="/types" className="explore">
               Choose
-            </a>
+            </Link>
           </div>
         </div>
       </section>

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import "../css/Navbar.css";
 import { GiBread } from "react-icons/gi";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
@@ -9,25 +10,25 @@ function Navbar() {
   return (
     <div>
       <nav className="sticky">
-        <a href="/" className="bread-title">
+        <Link to="/" className="bread-title">
           BreadLike <GiBread className="icon-b" />
-        </a>
+        </Link>
         <div className={showMenu ? "menu mobile-menu" : "menu"}>
           <ul>
             <li>
-              <a href="/"> Home </a>
+              <Link to="/"> Home </Link>
             </li>
             <li>
-              <a href="/about"> About the leaven </a>
+              <Link to="/about"> About the leaven </Link>
             </li>
             <li>
-              <a href="/types"> Bread types </a>
+              <Link to="/types"> Bread types </Link>
             </li>
             <li>
-              <a href="/blog"> Blog </a>
+              <Link to="/blog"> Blog </Link>
             </li>
             <li>
-              <a href="/contact"> Contact </a>
+              <Link to="/contact"> Contact </Link>
             </li>
           </ul>
         </div>

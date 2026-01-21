@@ -1,21 +1,19 @@
 import React from "react";
+import { BUTTONS } from "../data/Button.data";
+
 function Buttons({ chooseType }) {
   return (
     <div className="btn-container">
-      <button className="change" onClick={() => chooseType("white")}>
-        white flour
+      {BUTTONS.map(({ key, label }) => (
+      <button 
+    key={key ?? "all"}
+    className="change"
+    onClick={() => chooseType(key)}
+    >
+      {label}
       </button>
-      <button className="change" onClick={() => chooseType("rye")}>
-        rye flour
-      </button>
-      <button className="change" onClick={() => chooseType("wholemeal")}>
-        wholemeal flour
-      </button>
-      <button className="change" onClick={() => window.location.reload(false)}>
-        all types
-      </button>
+  ))}
     </div>
   );
 }
-
-export default Buttons;
+ export default Buttons;
