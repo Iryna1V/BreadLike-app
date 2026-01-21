@@ -371,6 +371,7 @@ p{
   }
 
 video {
+  display: block;
   object-fit: cover;
   width: 100vw;
   height: 80vh;
@@ -385,6 +386,6 @@ video {
   video {
     height: 50vh; 
     width: 100%;
-    margin-bottom: -1px;
+    object-fit: cover;
 }
 }
