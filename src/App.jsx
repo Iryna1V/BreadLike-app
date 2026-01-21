@@ -1,15 +1,14 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Types from "./pages/Types";
-import Blog from "./pages/Blog";
+import Types from "./pages/Types/Types";
+import Blog from "./pages/Blog/Blog";
 import About from "./pages/About";
 import "./App.css";
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar/Navbar";
-import Contact from "./pages/Contact";
+import Contact from "./pages/Contact/Contact";
 
 function App() {
-  
   return (
     <div>
       <Router>
